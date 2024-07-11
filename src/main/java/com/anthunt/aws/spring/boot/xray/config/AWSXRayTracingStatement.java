@@ -153,7 +153,7 @@ public class AWSXRayTracingStatement {
 
                 subsegment.setNamespace(Namespace.REMOTE.toString());
                 Map<String, Object> sqlParams = new HashMap<>();
-                sqlParams.put(URL, dbmetadata.getURL());
+//                sqlParams.put(URL, dbmetadata.getURL());
                 sqlParams.put(USER, dbmetadata.getUserName());
                 sqlParams.put(DRIVER_VERSION, dbmetadata.getDriverVersion());
                 sqlParams.put(DATABASE_TYPE, dbmetadata.getDatabaseProductName());
