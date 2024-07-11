@@ -6,12 +6,12 @@
       "host": "*",
       "http_method": "*",
       "url_path": "/api/*",
-      "fixed_target": 5,
+      "fixed_target": 0,
       "rate": 1.0
     }
   ],
   "default": {
-    "fixed_target": 1,
+    "fixed_target": 0,
     "rate": 0.25
   }
 }
