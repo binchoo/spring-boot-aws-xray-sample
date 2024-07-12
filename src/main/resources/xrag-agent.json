@@ -5,7 +5,7 @@
   "tracingEnabled": true,
   "samplingStrategy": "CENTRAL",
   "traceIdInjectionPrefix": "prefix",
-  "samplingRulesManifest": "/xray/sampling-rules.json",
+  "samplingRulesManifest": "/home/ec2-user/sampling-rules.json",
   "awsSdkVersion": 2,
   "maxStackTraceLength": 50,
   "streamingThreshold": 100,
