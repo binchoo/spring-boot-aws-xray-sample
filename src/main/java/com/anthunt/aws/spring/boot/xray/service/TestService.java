@@ -18,7 +18,6 @@ import software.amazon.awssdk.services.s3.S3Client;
 @Slf4j
 @Service
 @Transactional
-@XRayEnabled
 public class TestService {
 
 	@Autowired
@@ -32,7 +31,6 @@ public class TestService {
 									.credentialsProvider(ProfileCredentialsProvider.create("default"))
 									.region(Region.AP_NORTHEAST_2)
 									.overrideConfiguration(ClientOverrideConfiguration.builder()
-											.addExecutionInterceptor(new TracingInterceptor())
 											.build())
 								.build();		
 		s3Client.listBuckets();		
