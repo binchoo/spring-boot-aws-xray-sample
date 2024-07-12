@@ -6,6 +6,7 @@
   "samplingStrategy": "CENTRAL",
   "traceIdInjectionPrefix": "prefix",
   "samplingRulesManifest": "/home/ec2-user/sampling-rules.json",
+
   "awsSdkVersion": 2,
   "maxStackTraceLength": 50,
   "streamingThreshold": 100,
