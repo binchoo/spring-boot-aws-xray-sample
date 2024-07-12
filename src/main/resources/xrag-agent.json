@@ -1,0 +1,15 @@
+{
+  "serviceName": "SpringBootXRayDemoApplication",
+  "contextMissingStrategy": "LOG_ERROR",
+  "daemonAddress": "127.0.0.1:2000",
+  "tracingEnabled": true,
+  "samplingStrategy": "CENTRAL",
+  "traceIdInjectionPrefix": "prefix",
+  "samplingRulesManifest": "/xray/sampling-rules.json",
+  "awsSdkVersion": 2,
+  "maxStackTraceLength": 50,
+  "streamingThreshold": 100,
+  "traceIdInjection": true,
+  "pluginsEnabled": true,
+  "collectSqlQueries": true
+}
