@@ -1,4 +1,4 @@
 {
   "serviceName": "SpringBootXRayDemoApplication",
-  "collectSqlQueries": true
+  "collectSqlQueries": false
 }
